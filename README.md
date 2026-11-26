@@ -1,2 +1,2 @@
-# programming-weeks
+# programming
 Work done across the semester 
