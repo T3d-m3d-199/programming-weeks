@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>   // For std::string
+
+using namespace std;
+
+int main() {
+    string name;
+    cout << "Enter your name: ";
+    getline(cin, name);   // Reads a full line into the string
+    cout << "Name: " << name << endl;
+    cout << "Length: " << name.length() << endl;
+    cout << "First character: " << name[0] << endl;
+    string copy = name;
+    cout << "Copy: " << copy << endl;
+    string greeting = "Hello, " + name + "!";
+    cout << greeting << endl;
+
+    return 0;
+}
+
+//g++ stdstring_version.cpp -o stdstring_version
+//./stdstring_version
